@@ -1,2 +1,2 @@
-FROM garytaylor/ruby_docker_workspace:0.0.6
-RUN apk add --no-cache pdftk postgresql-dev libc6-compat
+FROM garytaylor/ruby_docker_workspace:0.1.0
+RUN apt-get update && apt-get install -y pdftk
